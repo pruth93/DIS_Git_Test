@@ -8,11 +8,6 @@ namespace HelloWorld
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Debug.WriteLine("Hello World!");
-            //Console.ReadKey();
-            //  New Comment
-        }
+        static void Main(string[] args) => Debug.WriteLine("Hello World!");//Console.ReadKey();//  New Comment
     }
 }
